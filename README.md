@@ -22,7 +22,11 @@
   * [Warum dieses Projekt?](#Warum-dieses-Projekt?)
   * [Vorwissen](#Vorwissen)
   * [Verwendete Technologien](#Verwendete-Technologien)
-* [Einblick in die WebApp](#Einblick-in-die-WebApp)
+  * [Einblick in die WebApp](#Einblick-in-die-WebApp)
+* [Weitere Infos](#Weitere-Infos)
+  * [HotReload für Entwicklung](#HotReload-für-Entwicklung)
+  * [Kompilieren für Produktion](#Kompilieren-für-Produktion)
+  * [Anpassen der Konfiguration](#Anpassen-der-Konfiguration)
 * [Lizenz](#Lizenz)
 * [Kontakt](#Kontakt)
 
@@ -74,7 +78,7 @@ Die Komponenten-Bibliothek von VueLayers vereinfacht die Zusammenarbeit zwischen
 **Firebase**
 Für die Speicherung von neuen Einträgen wurde ähnlich wie beim Projekt zizers-hilf die Firebase Database gewählt. Zusätzlich wurde aber diesmal noch der Authentifizierungsdienst von Firebase integriert. Dadurch können nur Registrierte User auf das Dashboard und deren Funktionsumfang gelangen.
 
-## Einblick in die WebApp
+### Einblick in die WebApp
 
 Um eine Übersicht über die Applikation zu erlangen, wurde eine Demoversion erstellt. Diese ist nicht an Firebase gekoppelt, dadurch fällt der Schritt der Anmeldung/Registrierung weg und auch das Erstellen von neuen Einträgen.
 
@@ -83,6 +87,25 @@ Um eine Übersicht über die Applikation zu erlangen, wurde eine Demoversion ers
 Damit aber dieser Einblick nicht komplett wegfällt, hier ein paar kleinere Ausschnitte.
 
 ![obs-map](https://user-images.githubusercontent.com/61183121/83629109-d4621b00-a599-11ea-856d-677e08ce6444.jpg)
+
+## Weitere Infos
+### Projekt setup
+```
+npm install
+```
+
+### HotReload für Entwicklung
+```
+npm run serve
+```
+
+### Kompilieren für Produktion
+```
+npm run build
+```
+
+### Anpassen der Konfiguration
+Hier [Konfiguration Referenz](https://cli.vuejs.org/config/).
 
 ## Lizenz
 
