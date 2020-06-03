@@ -113,3 +113,5 @@ Unter der MIT-Lizenz vertrieben. Weitere Informationen finden Sie unter `LICENSE
 Frank Zinsli - [frankzinsli.ch](https://frankzinsli.ch) - frank.zinsli@gmail.com
 
 Projekt Link: [https://github.com/Frankie1996/observation-map](https://github.com/Frankie1996/observation-map)
+
+Demo Link: [https://frankie1996.github.io/observation-map/](https://frankie1996.github.io/observation-map/)
