@@ -1,8 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://digezz.ch">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+![Beitragsbild](https://user-images.githubusercontent.com/61183121/83639839-9241d500-a5ab-11ea-85e3-56f7f5ffd2ee.jpg)
 
   <h3 align="center">Observation Map mit VueJs and OSM</h3>
 
@@ -12,7 +10,7 @@
     Mithilfe dieser Webanwendung, soll das Wild besser beobachtet werden können. Dies dient auch zum Schutz der Tiere, damit diese nicht durch plötzliches Auftreten, aufgescheucht werden.
     <br />
     <br />
-    <a href="https://frankie1996.github.io/observation-map/">View Demo</a>
+    <a href="https://frankie1996.github.io/observation-map/">Demo ansehen</a>
   </p>
 </p>
 
@@ -105,7 +103,7 @@ npm run build
 ```
 
 ### Anpassen der Konfiguration
-Hier [Konfiguration Referenz](https://cli.vuejs.org/config/).
+Hier gehts zur [Konfiguration Referenz](https://cli.vuejs.org/config/).
 
 ## Lizenz
 
