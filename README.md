@@ -1,7 +1,3 @@
-# Observation Map with Vue JS and OSM
-Die Observation Map ist eine Anwendung für Wildlife Fotografen. Mithilfe dieser Webanwendung, soll das Wild besser beobachtet werden können. Dies dient auch zum Schutz der Tiere, damit Sie nicht, durch plötzliches Auftreten, aufgescheucht werden.
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -26,7 +22,7 @@ Die Observation Map ist eine Anwendung für Wildlife Fotografen. Mithilfe dieser
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Über das Projekt](#about-the-project)
+* [Über das Projekt](#Über-das-Projekt)
   * [Warum dieses Projekt?](#why-this-project)
   * [Vorwissen](#prior-knowledge)
   * [Verwendete Technologien](#built-with)
