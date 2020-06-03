@@ -17,16 +17,14 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 * [Über das Projekt](#Über-das-Projekt)
-  * [Warum dieses Projekt?](#why-this-project)
-  * [Vorwissen](#prior-knowledge)
-  * [Verwendete Technologien](#built-with)
-* [Getting Started](#getting-started)
+  * [Warum dieses Projekt?](#Warum-dieses-Projekt?)
+  * [Vorwissen](#Vorwissen)
+  * [Verwendete Technologien](#Verwendete-Technologien)
+* [Einblick in die WebApp](#Einblick-in-die-WebApp)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
@@ -35,8 +33,6 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-
-
 
 <!-- ABOUT THE PROJECT -->
 ## Über das Projekt
@@ -56,27 +52,40 @@ Zudem war es natürlich auch ein sehr spannendes Projekt. Mit den Geocoordinaten
 
 ### Vorwissen ###
 
-In einem früheren Projekt namens [zizers-hilft](https://www.digezz.ch/isoliert-aber-nicht-allein-coronavirus-community-maps/) habe ich bereits das Zusammenspiel mit Geodaten und einer Karte gelernt. Dabei gibt es aber signifikante Unterschiede in Bezug zur verwendeten Technologie dieser beiden Projekte. 
+In einem früheren Projekt namens [zizers-hilft](https://www.digezz.ch/isoliert-aber-nicht-allein-coronavirus-community-maps/) habe ich bereits das Zusammenspiel mit Geodaten und einer Karte gelernt. Dabei gibt es aber signifikante Unterschiede in Bezug zu den verwendeten Technologien dieser beiden Projekte. 
 
 | zizers-hilft  | Observation Map |
 | ------------- |:---------------:|
 | Gatsby JS     | Vue JS          |
-| Maptiler      | OSM             |
-| no auth.      | Firebase auth.   |
+| Maptiler      | VueLayer        |
+| no auth.      | Firebase auth.  |
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+### Verwendete Technologien
 
+Die Webapplikation "Observation Map" wurde mit verschiedenen Webtechnologien, wie z.T. bereits oben beschrieben umgesetzt.
 
+* [VueJS](https://vuejs.org/)
+* [Vuetify](https://vuetifyjs.com/)
+* [VueLayer](https://vuelayers.github.io)
+* [Firebase](https://firebase.google.com/)
 
-<!-- GETTING STARTED -->
-## Getting Started
+**Vue JS**
+Das JS Framework Vue, wurde aufgrund seiner Aktualität und Einfachheit gewählt. VueJS geniesst momentan eine Art Boom unter den Entwicklern. Dadurch war es mir ein grosses anliegen, mich in dieses Famework ein zu arbeiten und dieses kennen zu lernen.
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+**Vuetify**
+Vuetify ist das "Material Design component framework" für VueJs. Mit diversen vorprogrammierten Komponenten, vereinfacht es das Programmieren um einiges. Zusätzlich besitzt es ein, von Haus aus, ansehnliches Design, was die weitere Ausarbeitung des Layouts verringert.
+
+**VueLayers**
+Die Komponenten-Bibliothek von VueLayers vereinfacht die Zusammenarbeit zwischen der *OpenLayers API* und Vue.js. Durch viele vordefinierte Komponenten, bleibt das Programmieren sehr übersichtlich und einfach zu verstehen.
+
+**Firebase**
+Für die Speicherung von neuen Einträgen wurde ähnlich wie beim Projekt zizers-hilf die Firebase Database gewählt. Zusätzlich wurde aber diesmal noch der Authentifizierungsdienst von Firebase integriert. Dadurch können nur Registrierte User auf das Dashboard und deren Funktionsumfang gelangen.
+
+## Einblick in die WebApp
+
+Um eine Übersicht über die Applikation zu erlangen, wurde eine Demoversion erstellt. Diese ist nicht an Firebase gekoppelt, dadurch fällt der Schritt der Anmeldung/Registrierung weg und auch das Erstellen von neuen Einträgen.
+
+Damit aber dieser Einblick nicht komplett wegfällt, hier ein paar kleinere Ausschnitte.
 
 ### Prerequisites
 
