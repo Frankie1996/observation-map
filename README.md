@@ -39,7 +39,9 @@
 
 Die Anwendung "Observation Map" ist im Rahmen eines Schulprojekts entstanden. Nachdem mich zwei Wildlife Fotografen angefragt haben, ob
 ich für Sie eine Beobachtungsmap erstellen könnte, habe ich mich in das 
-Thema eingelesen und begann das Projekt zu planen.
+Thema eingelesen und begann das Projekt zu planen. 
+
+*Wichtige Randbemerkung: Die Applikation wurde grundsätzlich für Mobile Geräte programmiert.*
 
 ### Warum dieses Projekt? ###
 
@@ -86,6 +88,9 @@ Für die Speicherung von neuen Einträgen wurde ähnlich wie beim Projekt zizers
 Um eine Übersicht über die Applikation zu erlangen, wurde eine Demoversion erstellt. Diese ist nicht an Firebase gekoppelt, dadurch fällt der Schritt der Anmeldung/Registrierung weg und auch das Erstellen von neuen Einträgen.
 
 Damit aber dieser Einblick nicht komplett wegfällt, hier ein paar kleinere Ausschnitte.
+
+![obs-map](https://user-images.githubusercontent.com/61183121/83629109-d4621b00-a599-11ea-856d-677e08ce6444.jpg)
+
 
 ### Prerequisites
 
