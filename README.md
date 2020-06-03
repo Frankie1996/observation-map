@@ -5,23 +5,19 @@ Die Observation Map ist eine Anwendung für Wildlife Fotografen. Mithilfe dieser
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://digezz.ch">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Observation Map mit VueJs and OSM</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    Eine Webanwenung für Wildlife Fotografen. 
+    <br>
+    Mithilfe dieser Webanwendung, soll das Wild besser beobachtet werden können. Dies dient auch zum Schutz der Tiere, damit diese nicht durch plötzliches Auftreten, aufgescheucht werden.
     <br />
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </p>
 
@@ -30,8 +26,10 @@ Die Observation Map ist eine Anwendung für Wildlife Fotografen. Mithilfe dieser
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
+* [Über das Projekt](#about-the-project)
+  * [Warum dieses Projekt?](#why-this-project)
+  * [Vorwissen](#prior-knowledge)
+  * [Verwendete Technologien](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -45,20 +43,30 @@ Die Observation Map ist eine Anwendung für Wildlife Fotografen. Mithilfe dieser
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Über das Projekt
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Die Anwendung "Observation Map" ist im Rahmen eines Schulprojekts entstanden. Nachdem mich zwei Wildlife Fotografen angefragt haben, ob
+ich für Sie eine Beobachtungsmap erstellen könnte, habe ich mich in das 
+Thema eingelesen und begann das Projekt zu planen.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+### Warum dieses Projekt? ###
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Beim Projekt geht es nicht nur primär um die Wildlife Fotografie, sondern
+auch um das Verstehen des Verhaltens der Tiere. Sobald man die Tiere versteht, ist es auch möglich Sie besser zu schützen. 
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+Indem man ihr Verhalten und ihren Lebensraum kennenlernt, ist es möglich sich Ihnen langsam und vorsichtig zu nähern. Zuvor war das Problem, dass durch planloses suchen, die Tiere vermehrt aufgescheucht wurden, was den Tieren viel Energie kostete.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Zudem war es natürlich auch ein sehr spannendes Projekt. Mit den Geocoordinaten und OpenStreetMap lernte ich zwei ganz neue Bereiche kennen.
+
+### Vorwissen ###
+
+In einem früheren Projekt namens [zizers-hilft](https://www.digezz.ch/isoliert-aber-nicht-allein-coronavirus-community-maps/) habe ich bereits das Zusammenspiel mit Geodaten und einer Karte gelernt. Dabei gibt es aber signifikante Unterschiede in Bezug zur verwendeten Technologie dieser beiden Projekte. 
+
+| zizers-hilft  | Observation Map |
+| ------------- |:---------------:|
+| Gatsby JS     | Vue JS          |
+| Maptiler      | OSM             |
+| no auth.      | Firebase auth.   |
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
