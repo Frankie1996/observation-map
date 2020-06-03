@@ -12,7 +12,7 @@
     Mithilfe dieser Webanwendung, soll das Wild besser beobachtet werden können. Dies dient auch zum Schutz der Tiere, damit diese nicht durch plötzliches Auftreten, aufgescheucht werden.
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://frankie1996.github.io/observation-map/">View Demo</a>
   </p>
 </p>
 
@@ -82,7 +82,7 @@ Für die Speicherung von neuen Einträgen wurde ähnlich wie beim Projekt zizers
 
 Um eine Übersicht über die Applikation zu erlangen, wurde eine Demoversion erstellt. Diese ist nicht an Firebase gekoppelt, dadurch fällt der Schritt der Anmeldung/Registrierung weg und auch das Erstellen von neuen Einträgen.
 
-[Demo Version](https://example.com)
+[Demo Version](https://frankie1996.github.io/observation-map/)
 
 Damit aber dieser Einblick nicht komplett wegfällt, hier ein paar kleinere Ausschnitte.
 
