@@ -1,7 +1,6 @@
+![Beitragsbild](https://user-images.githubusercontent.com/61183121/83639839-9241d500-a5ab-11ea-85e3-56f7f5ffd2ee.jpg)
 <br />
 <p align="center">
-![Beitragsbild](https://user-images.githubusercontent.com/61183121/83639839-9241d500-a5ab-11ea-85e3-56f7f5ffd2ee.jpg)
-
   <h3 align="center">Observation Map mit VueJs and OSM</h3>
 
   <p align="center">
